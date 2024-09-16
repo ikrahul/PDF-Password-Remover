@@ -108,8 +108,7 @@ def open_about():
     messagebox.showinfo("About", about_message)
 
 def open_github():
-    webbrowser.open("Placeholderrepo")
-
+    webbrowser.open("https://github.com/ikrahul/PDF-Password-Remover")
 
 root = tk.Tk()
 root.title("PDF Password Remover")
